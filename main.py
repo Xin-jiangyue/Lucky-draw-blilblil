@@ -3,7 +3,6 @@ from tkinter import filedialog
 import pandas as pd
 import random as rnd
 
-from pip._internal.utils import filetypes
 
 root = tk.Tk()
 root.withdraw()
