@@ -9,6 +9,9 @@ root.withdraw()
 file_path = filedialog.askopenfilename(
     title="选择名单"
 )
+if not file_path:
+    print("未选择")
+    exit()
 print(file_path)
 blist = pd.read_excel(file_path)
 MaxNum=len(blist)
